@@ -1,23 +1,18 @@
-**Level Design Concept**
+**Simple Interactive Door (Blueprint-Based)**
 
-The layout features modular geometry to test traversal, scale, and spatial flow. It’s a graybox setup focused on prototyping gameplay mechanics like doors and basic interaction systems.
+In this project, I created a basic door interaction system using only Blueprints in Unreal Engine—no coding needed!
 
-**Features**
+When the player walks near the door, a trigger detects them and smoothly opens the door using a timeline animation. If they walk away or interact again, the door closes. I used a Lerp node inside a Timeline to handle the smooth rotation, and some simple logic to check if the door is already open or closed.
 
-Door System: Implemented using Blueprints with timelines and Lerp nodes
+It’s simple, responsive, and a great starting point for more advanced interactions!
 
-Smooth Open/Close Animation based on player proximity and key input
+**How the Interactive Door Works**
+The door setup uses Unreal Engine’s Blueprint system—a visual scripting tool. Here's how each part works:
 
-Reversible Logic: Doors open in both directions depending on the player's approach
+->Trigger Box: Placed near the door, it detects when the player enters or exits.
 
-**Tools Used**
+->Timeline Node: Animates a smooth door movement over time.
 
-Unreal Engine 5
+->Lerp (Linear Interpolation): Used inside the Timeline to gradually rotate the door between closed and open positions.
 
-Blueprints (no C++)
-
-Basic meshes and colliders
-
-Timeline node for smooth animation
-
-Trigger box and overlap events
+->Bool Variable: Tracks whether the door is open or closed, so the system knows which action to perform.
