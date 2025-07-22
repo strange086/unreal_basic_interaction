@@ -7,6 +7,7 @@ When the player walks near the door, a trigger detects them and smoothly opens t
 It’s simple, responsive, and a great starting point for more advanced interactions!
 
 **How the Interactive Door Works**
+
 The door setup uses Unreal Engine’s Blueprint system—a visual scripting tool. Here's how each part works:
 
 ->Trigger Box: Placed near the door, it detects when the player enters or exits.
