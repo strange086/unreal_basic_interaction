@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal/projects/game dev ig task/project_1/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Unreal/projects/game dev ig task/project_1/Content/ThirdPerson/BP_Door.uasset",
+				"D:/Unreal/projects/game dev ig task/project_1/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Unreal/projects/game dev ig task/project_1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/NP/KUFVHVNANCB4NCWITFIRYQ.uasset",
+				"D:/Unreal/projects/game dev ig task/project_1/Content/StarterContent/Props/SM_Door.uasset"
+			]
+		}
+	]
+}
